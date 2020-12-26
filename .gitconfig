@@ -1,7 +1,0 @@
-[user]
-	singingkey = 9EFBB0C58DB3BABC
-	email = agmoliveira@gmail.com
-[commit]
-	gpgsign = true
-[tag]
-	gpgSign = true
