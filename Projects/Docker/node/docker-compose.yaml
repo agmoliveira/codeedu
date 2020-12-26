@@ -1,0 +1,12 @@
+version: '3'
+services:
+       nodes_hello:
+                 container_name: node_hello
+                 build: .
+                 image: agmoliveira/nodes_hello:latest
+                 volumes:
+                 - /root/Projects/nodes:/usr/share/app
+                 ports: 
+                 - 3000:3000
+       node01:
+             image: node:15
